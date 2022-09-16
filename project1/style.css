@@ -15,7 +15,7 @@
 #content {
   text-align: right;
 	border-bottom: 1px solid #0075FF;
-	margin-right: 0px;
+	margin-right: 15px;
 }
 
 #image2 {
@@ -28,11 +28,22 @@
 	border-top:1px solid #0075FF;
 }
 
-#img{
+.img{
 	width: 100%;
 	height: 100%;
 	border-radius: 150px;
+	padding:0;
+	margin:0;
+	transition:.2s;
+}
 
+.img:hover{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	opacity:0;
+	padding:0;
+	margin:0;
 }
 
 .circle{
@@ -101,7 +112,9 @@
 	width:68%;
   margin-left: 0px;
 	box-sizing:border-box;
-  border: 1px solid #0075FF;
+  border-top: 1px solid #0075FF;
+	border-bottom: 1px solid #0075FF;
+	border-right: 1px solid #0075FF;
 	border-collapse:collapse;
 	padding:0px;
 }
@@ -121,14 +134,17 @@
 
 .divfull:last-child{
 	border-top:0px;
-
 }
 
 .divright{
 	width:32%;
-	margin-right:0px;
+	margin:0px;
 	float:right;
 	padding:0px;
+	box-sizing:border-box;
+  border-top:1px solid #0075FF;
+	border-bottom:1px solid #0075FF;
+  border-collapse:collapse;
 }
 
 .divfourth{
