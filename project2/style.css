@@ -15,18 +15,7 @@
 body{
   color:#000;
   background-color: #fff;
-}
-
-#invertedcursor {
-  background-color: transparent;
-  border:1px solid black;
-  height:20px;
-  width:20px;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  position: absolute;
-  z-index: 1;
+	cursor: url("cursor1.png"), auto;
 }
 
 .img{
@@ -91,7 +80,8 @@ a:visited{
 }
 
 a:hover{
-  color:green;
+  color:##32cd32;
+	cursor: url("cursor2.png"), auto;
 }
 
 a:active:{
